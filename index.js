@@ -14,7 +14,7 @@ try {
   memes = [];
 }
 
-app.get("/", (req, res) => {
+app.get("/meme-tanjil-api", (req, res) => {
   if (!memes || memes.length === 0) {
     return res.send("<h2>No memes found!</h2>");
   }
